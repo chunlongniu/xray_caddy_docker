@@ -1,0 +1,7 @@
+/workspaces/caddy/logs/access.log {
+        daily
+        rotate 7
+        dateext
+        missingok
+        notifempty
+}

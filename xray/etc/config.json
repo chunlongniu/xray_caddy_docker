@@ -1,0 +1,32 @@
+{
+  "log": {
+    "loglevel": "debug",
+    "access": "/workspaces/xray/logs/access.log",
+    "error": "/workspaces/xray/logs/error.log"
+  },
+  "inbounds": [{
+    "listen": "127.0.0.1",
+    "port": 16888,
+    "protocol": "vmess",
+    "settings": {
+        "clients": [
+            {
+              "id": "b0397f5a-f6ae-4b02-8a0f-fe3ec729d0b0",
+              "level":  1,
+              "alterId": 64
+            }
+        ]
+    },
+    "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+            "connectionReuse": false,
+            "path": "/ws"
+        }
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  }]
+}

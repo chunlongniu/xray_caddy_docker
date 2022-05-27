@@ -1,0 +1,15 @@
+/workspaces/xray/logs/access.log {
+        daily
+        rotate 7
+        dateext
+        missingok
+        minisize 1M
+}
+
+/workspaces/xray/logs/error.log {
+        daily
+        rotate 7
+        dateext
+        missingok
+        minisize 1M
+}
