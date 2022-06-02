@@ -20,6 +20,6 @@ Steps:
  ```
 3. Launch container
  ```shell
- docker run -d -it -p 443:443 -w /workspaces --name "xray_caddy2" --env DOMAIN_NAME='domain.name' alpine:xray
+ docker run -d -it -p 443:443 -w /workspaces --name "xray_caddy2" --env DOMAIN_NAME='domain.name' alpine:xray_caddy2
  ```
 
