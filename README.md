@@ -9,14 +9,14 @@ requirement:
 - Turn on the 443 on this VPS platform
 
 Steps:
-    1. Clone repository https://github.com/chunlongniu/xray_caddy_docker.git
-    2. Access into repository
-    3. build image
-	```shell
-	docker build -t alpine:xray_caddy2
-	```
-    3. Launch container
-	```shell
-	docker run -d -it -p 443:443 -w /workspaces --name "xray_caddy2" --env DOMAIN_NAME='domain.name' alpine:xray
-	```
+1. Clone repository https://github.com/chunlongniu/xray_caddy_docker.git
+2. Access into repository
+3. build image
+```shell
+docker build -t alpine:xray_caddy2
+```
+3. Launch container
+```shell
+docker run -d -it -p 443:443 -w /workspaces --name "xray_caddy2" --env DOMAIN_NAME='domain.name' alpine:xray
+```
 
