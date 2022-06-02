@@ -9,7 +9,7 @@ requirement:
 - Turn on the 443 on this VPS platform
 
 Steps:
-1. Clone repository https://github.com/chunlongniu/xray_caddy_docker.git
+1. Clone repository git clone https://github.com/chunlongniu/xray_caddy_docker.git
 2. Access into repository
 3. build image
 ```shell
