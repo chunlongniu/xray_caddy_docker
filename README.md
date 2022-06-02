@@ -6,7 +6,7 @@ to provide more security proxy like for our selves
 requirement:
 - X86(64 bit) VPS platform is necessary
 - Install docker on this VPS platform
-- Turn on the 443 on this VPS platform
+- Turn on the port 443 on this VPS platform
 
 Steps:
 1. Clone repository
