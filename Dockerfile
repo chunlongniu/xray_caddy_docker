@@ -14,4 +14,4 @@ COPY etc/logrotate.d/xray /etc/logrotate.d/xray
 
 COPY etc/logrotate.d/caddy /etc/logrotate.d/caddy
 
-ENTRYPOINT ["/bin/sh", "-c", "caddy/bin/caddy_linux_amd64 start -config caddy/etc/Caddyfile && xray/bin/xray run -c xray/etc/config.json"]
+ENTRYPOINT ["/bin/sh", "-c", "caddy/bin/caddy start -config caddy/etc/Caddyfile && xray/bin/xray run -c xray/etc/config.json"]
