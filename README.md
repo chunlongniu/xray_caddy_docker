@@ -12,7 +12,7 @@ Steps:
 1. Clone repository
   ```shell
   git clone https://github.com/chunlongniu/xray_caddy_docker.git
-  ```shell
+  ```
 2. Access into repository
 3. build image
  ```shell
